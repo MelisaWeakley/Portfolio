@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>The Shower Crewe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body id="home">
+
+    <header>
+
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <div class="desktop">
+        <ul>
+          <li class="logo"><a href="./index.html"><img src="./assests/shower-logo.png" alt="logo"/></a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile">
+        <ul>
+          <li class="mbe"><a class="mob" href="./index.html">Home</a></li>
+          <li class="mbe"><a class="mob" href="./about.html">About</a></li>
+          <li class="mbe"><a class="mob" href="./services.html">Services</a></li>
+          <li class="mbe"><a class="mob" href="./products.html">Products</a></li>
+          <li class="mbe"><a class="mob" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="logo-mbl">
+       <a href="./index.html"><img src="./assests/shower-logo.png" alt="logo"/></a>
+      </div>
+
+    </header>
+
+    <div class="main index-main">
+      <div class="title">
+        <h2 class="front">The Shower Installation <br>Specialists</h2>
+        <button class="button center-button"><a class="button-text" href="./contact.html">Contact Us</a></button>
+      </div> 
+    </div>
+
+    <div class="text">
+      <p class="header green-header">Welcome to Shower Crewe Installations</p>
+      <br><p>
+       We are one of Auckland's leading shower door and screen installation specialists and we are finally here with our new Website.
+      <br><br>
+       If your are interested in any of our products or services please contact us by either email, phone, fax or simply go to the   contact us page and fill out the online form. We will be happy to help you with your requirements.
+      <br><br>
+       We hope that what you have seen in the Website will help you choose us to install your next shower. You will not be disappointed with the services we provide.
+      </p>
+    </div>
+
+    <div class="brands-hd">
+      <p class="header">Our Partner Brands</p>
+      <div class="brands">
+        <div class="brand">
+          <img class="png" src="./assests/athena.png" alt="athena">
+          <p>Athena showers create a space that is functional, while adding to the style and personality of your bathroom.</p>
+        </div>
+        <div class="brand">
+          <img class="png" src="./assests/kohler.png" alt="kohler">
+          <p>To meet the needs of homeowners, Kohler Co. maintains a six-continent distribution and service network.</p>
+        </div>
+        <div class="brand">
+          <img class="png" src="./assests/newline.png" alt="newline">
+          <p>Newline was founded to design and develop the unique and innovative Rollaway Shower Screen.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <p class="header">Testimonials</p>
+      <br>
+      <p class="bold">
+       We pride ourselves on giving 110% in all that we do, to make sure we meet our customers expectations.
+      </p>
+      <p>
+      <br>
+       "I had a crack in the base of my shower and it needed to get fixed urgently so I contacted Karl at the Showercrewe. In little than 2 days I had a brand new shower installed and couldn't be happier. I as a customer would highly recommend Showercrewe as they were highly professional and had great customer service." Mr Martin - Torbay
+      <br><br>
+      "I have used the shower crewe over the part 5 years, to fit my liners and doors, They are with out doubt the most professional team operating in the greater Auckland area. They are punctual and courteous to the my clients, and I will continue to use them as long as I am operating my business." Mr Bevis - Bathroom Renovation Specialist
+      <br><br>
+       "Simply the best around when it comes to installing showers. To anyone out there these guys know their stuff. The new shower I had installed is awesome." Ms Lawson - Browns Bay
+      </p>     
+    </div>
+    
+    <div class="footer-contact">
+      <p class="whiteh1">Contact Us</p>
+      <div class="footer">
+        <div class="foot">
+          <p class="white">
+            <span>Phone: </span>09 479 6379
+            <br><span>Email: </span>info@showercrewe.co.nz
+            <br><span>Mobile: </span>0275 685 905       
+          </p>
+        </div>
+        <div class="foot">
+          <p class="white">
+            <span>Postal Address: </span>The Shower Crewe Ltd,
+            <br>PO Box 35838, Browns Bay, Auckland, 0630.
+            <br><span>Fax: </span>09 479 6377
+          </p>
+        </div>
+      </div>
+      <p class="white-sml">Copyright 2010 showercrewe.co.nz</p>
+    </div>
+  
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
